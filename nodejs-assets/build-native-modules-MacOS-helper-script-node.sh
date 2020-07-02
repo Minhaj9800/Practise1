@@ -1,0 +1,5 @@
+#!/bin/bash
+      # Helper script for Gradle to call node on macOS in case it is not found
+      export PATH=$PATH:/Users/minhaj/.npm-packages/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/minhaj/WebstormProjects/Practise1/node_modules/nodejs-mobile-react-native/node_modules/.bin:/Users/minhaj/WebstormProjects/Practise1/node_modules/.bin:/Users/minhaj/.npm-packages/bin:/Users/minhaj/Desktop/platform-tools:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/minhaj/Library/Android/sdk/emulator:/Users/minhaj/Library/Android/sdk/tools:/Users/minhaj/Library/Android/sdk/tools/bin:/Users/minhaj/Library/Android/sdk/platform-tools:/Users/minhaj/Library/Android/sdk/platform-tools/adb
+      node $@
+    
